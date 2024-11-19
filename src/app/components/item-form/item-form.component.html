@@ -1,0 +1,9 @@
+<form [formGroup]="itemForm" (ngSubmit)="onSubmit()">
+    <label for="title">Title</label>
+    <input id="title" formControlName="title">
+
+    <label for="body">Body</label>
+    <textarea id="body" formControlName="body"></textarea>
+
+    <button type="submit">Submit</button>
+</form>

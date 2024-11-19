@@ -1,0 +1,4 @@
+<div *ngFor="let item of items">
+    <p>{{ item.title }}</p>
+    <button (click)="deleteItem(item.id)">Delete</button>
+</div>
